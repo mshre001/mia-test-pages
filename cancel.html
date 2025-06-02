@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Subscription Cancelled</title>
+  </head>
+  <body>
+    <h1>Subscription Cancelled</h1>
+    <p>Sorry to see you go :(, thanks for letting us serve you!</p>
+    <a href="trucklog://subscription/cancel">
+      <button>Back to App</button>
+    </a>
+    <script>
+      setTimeout(function() {
+        window.location = "trucklog://subscription/cancel";
+      }, 2000);
+    </script>
+  </body>
+</html>
